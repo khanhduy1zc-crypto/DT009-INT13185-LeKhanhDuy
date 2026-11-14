@@ -1,0 +1,142 @@
+{
+  "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "warmups": 3,
+  "repetitions": 15,
+  "timer": "time.perf_counter_ns",
+  "input_generation": "Random(20261025+n), values in [-1000,1000], X=17",
+  "rows": [
+    {
+      "n": 5,
+      "algorithm": "hai_vong",
+      "X": 17,
+      "expected_pairs": 0,
+      "pair_comparisons_brute": 10,
+      "median_ms": 0.0014,
+      "min_ms": 0.0013,
+      "max_ms": 0.0018,
+      "repetitions": 15
+    },
+    {
+      "n": 5,
+      "algorithm": "sort_nhi_phan",
+      "X": 17,
+      "expected_pairs": 0,
+      "pair_comparisons_brute": 10,
+      "median_ms": 0.0045,
+      "min_ms": 0.0044,
+      "max_ms": 0.0049,
+      "repetitions": 15
+    },
+    {
+      "n": 5,
+      "algorithm": "hai_con_tro",
+      "X": 17,
+      "expected_pairs": 0,
+      "pair_comparisons_brute": 10,
+      "median_ms": 0.0033,
+      "min_ms": 0.0031,
+      "max_ms": 0.0037,
+      "repetitions": 15
+    },
+    {
+      "n": 20,
+      "algorithm": "hai_vong",
+      "X": 17,
+      "expected_pairs": 0,
+      "pair_comparisons_brute": 190,
+      "median_ms": 0.0086,
+      "min_ms": 0.0084,
+      "max_ms": 0.009,
+      "repetitions": 15
+    },
+    {
+      "n": 20,
+      "algorithm": "sort_nhi_phan",
+      "X": 17,
+      "expected_pairs": 0,
+      "pair_comparisons_brute": 190,
+      "median_ms": 0.0229,
+      "min_ms": 0.0225,
+      "max_ms": 0.0242,
+      "repetitions": 15
+    },
+    {
+      "n": 20,
+      "algorithm": "hai_con_tro",
+      "X": 17,
+      "expected_pairs": 0,
+      "pair_comparisons_brute": 190,
+      "median_ms": 0.015,
+      "min_ms": 0.0148,
+      "max_ms": 0.0153,
+      "repetitions": 15
+    },
+    {
+      "n": 100,
+      "algorithm": "hai_vong",
+      "X": 17,
+      "expected_pairs": 1,
+      "pair_comparisons_brute": 4950,
+      "median_ms": 0.1619,
+      "min_ms": 0.1567,
+      "max_ms": 0.3037,
+      "repetitions": 15
+    },
+    {
+      "n": 100,
+      "algorithm": "sort_nhi_phan",
+      "X": 17,
+      "expected_pairs": 1,
+      "pair_comparisons_brute": 4950,
+      "median_ms": 0.172,
+      "min_ms": 0.1577,
+      "max_ms": 0.2077,
+      "repetitions": 15
+    },
+    {
+      "n": 100,
+      "algorithm": "hai_con_tro",
+      "X": 17,
+      "expected_pairs": 1,
+      "pair_comparisons_brute": 4950,
+      "median_ms": 0.1135,
+      "min_ms": 0.0966,
+      "max_ms": 0.1429,
+      "repetitions": 15
+    },
+    {
+      "n": 500,
+      "algorithm": "hai_vong",
+      "X": 17,
+      "expected_pairs": 50,
+      "pair_comparisons_brute": 124750,
+      "median_ms": 4.3625,
+      "min_ms": 4.2483,
+      "max_ms": 4.8859,
+      "repetitions": 15
+    },
+    {
+      "n": 500,
+      "algorithm": "sort_nhi_phan",
+      "X": 17,
+      "expected_pairs": 50,
+      "pair_comparisons_brute": 124750,
+      "median_ms": 1.2002,
+      "min_ms": 1.0278,
+      "max_ms": 1.5235,
+      "repetitions": 15
+    },
+    {
+      "n": 500,
+      "algorithm": "hai_con_tro",
+      "X": 17,
+      "expected_pairs": 50,
+      "pair_comparisons_brute": 124750,
+      "median_ms": 0.5929,
+      "min_ms": 0.5763,
+      "max_ms": 0.7596,
+      "repetitions": 15
+    }
+  ]
+}
